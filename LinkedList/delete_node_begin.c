@@ -8,7 +8,7 @@ int main(){
     };
 
     struct node *head,*newnode,*temp;
-    int choice=1;
+    int choice=1; // this variable is used to control the while loop
     head=NULL;
     
 
