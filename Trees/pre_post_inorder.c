@@ -68,8 +68,13 @@ int main(){
     struct node * root;
     root=NULL;
     root=create();
+    printf("PREORDER : \n");
     preorder(root);
+    printf("\n");
+    printf("INORDER : \n");
     inorder(root);
+    printf("\n");
+    printf("POSTORDER : \n");
     postorder(root);
     return 0;
 
